@@ -79,8 +79,7 @@ By combining nanobody precision with mCherry brightness, this project introduces
 
 ## Repository Structure  
 
-your-repo-name/
-│
+
 ├── README.md                                               
 │
 ├── data/
