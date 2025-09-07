@@ -1,7 +1,5 @@
 # mCherry-Nanobody-Fusion 
 
-# mCherry–Nanobody Fusion for Rapid HER2+ Cancer Cell Labeling
-
 ## Problem  
 Breast cancers that overexpress the **human epidermal growth factor receptor 2 (HER2)** represent a particularly aggressive subtype and are associated with poor clinical outcomes. Detecting HER2 status is essential for diagnosis and treatment planning, since HER2-targeted therapies improve survival.  
 
@@ -41,7 +39,7 @@ We designed a panel of **mCherry–nanobody fusion proteins** that combine:
    - Produced **scores.csv** with mean and domain-level folding confidence.  
 
 5. **Candidate Selection**  
-   - Chose top-performing constructs with:  
+   - Choose top-performing constructs with:  
      - Stable mCherry β-barrel  
      - Exposed, well-folded nanobody domain  
      - Mean pLDDT ≥ 80  
