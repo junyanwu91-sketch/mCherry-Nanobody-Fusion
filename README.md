@@ -79,7 +79,7 @@ By combining nanobody precision with mCherry brightness, this project introduces
 
 ## Repository Structure  
 
-
+```
 ├── README.md                                               
 │
 ├── data/
@@ -91,3 +91,4 @@ By combining nanobody precision with mCherry brightness, this project introduces
 └── scripts/                          
     ├── diffusion.ipynb                             # RFdiffsion notebook provided was used
     └── pLDDT_extractor_from_cif.ipynb              # Extraction program used to get the mean pLDDT
+```
