@@ -26,7 +26,7 @@ We designed a panel of **mCherry–nanobody fusion proteins** that combine:
      - Linker length ((G4S)1–3)  
 
 2. **Structure Prediction & Scoring**  
-   - Used **ColabFold/AlphaFold** to generate predicted 3D models.  
+   - Used **AlphaFold 3** by Google DeepMind to generate predicted 3D models.  
    - Extracted **per-residue confidence (pLDDT)** values and computed **domain-level scores**.  
    - Inspected structures for steric clash or linker intrusion.  
 
@@ -78,3 +78,17 @@ By combining nanobody precision with mCherry brightness, this project introduces
 ---
 
 ## Repository Structure  
+
+your-repo-name/
+│
+├── README.md                                               
+│
+├── data/
+│   ├── AlphaFold inputs            # The 6 sequences + 3 regenerations we submitted to AlphaFold Server
+│   └── RFdiffusion input pdb and candidates.zip   # Initial pdb files used as "backbone" of the RFdiffusion
+│   
+│  
+│
+└── scripts/                          
+    ├── diffusion.ipynb                             # RFdiffsion notebook provided was used
+    └── pLDDT_extractor_from_cif.ipynb              # Extraction program used to get the mean pLDDT
