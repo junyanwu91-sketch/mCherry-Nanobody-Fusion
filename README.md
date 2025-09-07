@@ -83,7 +83,7 @@ By combining nanobody precision with mCherry brightness, this project introduces
 ├── README.md                                               
 │
 ├── data/
-│   ├── AlphaFold inputs            # The 6 sequences + 3 regenerations we submitted to AlphaFold Server
+│   ├── AlphaFold inputs                           # The 6 sequences + 3 regenerations we submitted to AlphaFold Server
 │   └── RFdiffusion input pdb and candidates.zip   # Initial pdb files used as "backbone" of the RFdiffusion
 │   
 │  
